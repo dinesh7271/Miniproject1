@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnimeXlet</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="navbar"><h1>AnimeXlet</h1></div>
+    <div id="navbar">
+        <h1>AnimeXlet</h1>
+    </div>
     <div class="container">
         <div class="box-container">
             <h2 class="animename">One Piece</h2>
             <h4 calss="authour">Echiro Oda</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint soluta suscipit unde architecto quasi ipsum rem, autem in dolor voluptatibus mollitia praesentium illum commodi quas vero deserunt vel itaque culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam distinctio iure praesentium cupiditate sunt officia unde? Deserunt et dignissimos ad, nulla dicta, beatae expedita officia incidunt molestias illo enim.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint soluta suscipit unde architecto quasi ipsum
+                rem, autem in dolor voluptatibus mollitia praesentium illum commodi quas vero deserunt vel itaque
+                culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam distinctio iure
+                praesentium cupiditate sunt officia unde? Deserunt et dignissimos ad, nulla dicta, beatae expedita
+                officia incidunt molestias illo enim.</p>
             <button onclick="deleteanime(event)">Delete</button>
         </div>
     </div>
@@ -25,12 +33,13 @@
         <h2 style="font-size: 40px;">Add Anime</h2>
         <form>
             <input type="text" placeholder="Anime name" id="animename">
-             <input type="text" placeholder="Anime author" id="animeauthor">
-             <textarea placeholder="short description" id="description"></textarea>
-             <button id="add-btn">Add</button>
-             <button id="cancel-btn">Cancel</button>
+            <input type="text" placeholder="Anime author" id="animeauthor">
+            <textarea placeholder="short description" id="description"></textarea>
+            <button id="add-btn">Add</button>
+            <button id="cancel-btn">Cancel</button>
         </form>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

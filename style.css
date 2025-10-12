@@ -1,14 +1,13 @@
-
-*{
+* {
     margin: 0px;
 }
 
-body{
+body {
     background-color: black;
-     font-family: "MedievalSharp", cursive;
+    font-family: "MedievalSharp", cursive;
 }
 
-#navbar{
+#navbar {
     background-color: #99b340;
     padding: 40px;
     border: none;
@@ -17,12 +16,12 @@ body{
     height: 10%;
 }
 
-.container{
+.container {
     padding: 10px;
 
 }
 
-.box-container{
+.box-container {
     margin: 20px;
     padding: 20px;
     border: 4px #99b340 solid;
@@ -34,11 +33,11 @@ body{
     vertical-align: top;
 }
 
-.box-container h2{
+.box-container h2 {
     color: #99b340;
 }
 
-.box-container button{
+.box-container button {
     background-color: #99b340;
     color: black;
     margin-top: 10px;
@@ -48,7 +47,7 @@ body{
     font-size: 15px;
 }
 
-.addbutton{
+.addbutton {
     background-color: #99b340;
     font-size: 30px;
     border: none;
@@ -60,7 +59,7 @@ body{
     position: fixed;
 }
 
-.popupoverlay{
+.popupoverlay {
     background-color: black;
     opacity: 0.8;
     width: 100%;
@@ -72,7 +71,7 @@ body{
     z-index: 1;
 }
 
-.popup-box{
+.popup-box {
     background-color: #99b340;
     width: 40%;
     position: absolute;
@@ -85,17 +84,7 @@ body{
     left: 30%;
 }
 
-#add-btn{
-    background-color: black;
-    color: aliceblue;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    margin: 5px;
-    padding: 20px;
-}    
-
-#cancel-btn{
+#add-btn {
     background-color: black;
     color: aliceblue;
     border: none;
@@ -105,7 +94,17 @@ body{
     padding: 20px;
 }
 
-.popup-box input{
+#cancel-btn {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.popup-box input {
     background-color: transparent;
     color: black;
     border: none;
@@ -116,8 +115,8 @@ body{
     padding: 5px;
 }
 
-.popup-box textarea{
-     background-color: transparent;
+.popup-box textarea {
+    background-color: transparent;
     color: black;
     border-radius: 5px;
     border: 2px solid black;
@@ -127,19 +126,19 @@ body{
     padding: 5px;
 }
 
-.popup-box input::placeholder{
+.popup-box input::placeholder {
     color: black;
 }
 
-.popup-box textarea::placeholder{
+.popup-box textarea::placeholder {
     color: black;
 }
 
-.popup-box input:focus{
+.popup-box input:focus {
     outline: none;
 }
 
 
-.popup-box textarea:focus{
+.popup-box textarea:focus {
     outline: none;
 }
